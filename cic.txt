@@ -1,0 +1,75 @@
+# 涉诈APK分析报告-cic
+
+---
+
+## 目录
+
+1. [APK信息](#APK信息)
+2. [证书信息](#证书信息)
+3. [网址检测](#网址检测)
+4. [权限信息](#权限信息)
+5. [涉诈图片](#涉诈图片)
+---
+
+## APK信息
+
+| 属性     | 值                            |
+|----------|--------------------------------|
+| 图标   | <img src="myapp/media/icons/cic_4KYbHFD.png"  width="150"/> |
+| 文件名   | `cic.apk`            |
+| 文件大小 | `16.80MB` |
+| 应用名称 | `CIC Group`            |
+| 包名     | `com.jrlwqbxbhpmn.app`             |
+| 版本号   | `3.1.1` |
+| MD5码    | `f3da87a92844fa3d4b0e9871ab932ead`            |
+| 签名可验证 | `True`           |
+| 代码分析结果 | <span style="color:red;">涉诈</span>|
+| 置信度 | `0.98701569851196` |
+| **是否涉诈** | <span style="color:red;">True</span>|
+| **涉诈类型** | **黑色产业**             |
+| 分析完成时间 | `2024-08-19 08:04:46.103398+00:00`                |
+---
+
+## 证书信息
+
+| 属性     | 值                            |
+|----------|--------------------------------|
+| 序列号   | `29f726f4` |
+| 版本   | `3`            |
+| 起始时间 | `Sat Apr 13 06:15:22 UTC 2024` |
+| 终止时间 | `Wed Aug 30 06:15:22 UTC 2051`   |
+| SHA1 | `81:BA:4E:F1:62:F9:30:BE:FA:5C:21:79:4E:68:E9:83:7D:78:57:A2`   |
+| SHA256 | `5B:25:C9:3E:F8:9D:6C:A7:88:F4:80:57:E6:80:14:F2:AA:70:DE:7A:8A:77:E4:F1:12:15:C5:F2:CF:77:95:53`   |
+| 签名算法 | `SHA256withRSA`   |
+| 公钥算法 | `2048-bit RSA key`   |
+---
+
+## 网址检测
+
+| URL   | IP地址  | 域名 | 国家 | 城市 | 区域 | 是否涉诈 |
+|-------|---------|------|------|------|------|----------|
+| http://www.example.com   | 93.184.215.14  | example.com | United Kingdom | London | England | <span style="color:red;">True</span> |
+| http://schemas.android.com/   | None  | android.com | None | None | None | <span style="color:red;">True</span> |
+| http://ns.adobe.com/   | None  | adobe.com | None | None | None | <span style="color:red;">True</span> |
+| https://github.com/   | 20.205.243.166  | github.com | Singapore | Singapore | Central Singapore | <span style="color:red;">True</span> |
+| https://developer.android.com/   | 142.251.211.238  | android.com | United States | Gaithersburg | Maryland | <span style="color:green;">False</span> |
+
+---
+
+## 权限信息
+
+| 权限   | 中文名 | 说明  | 危险等级 |
+|-------|-------|-----|-----|
+| android.permission.RECORD_AUDIO   | 录音 | 允许应用程序访问录音路径。  | <span style="color:orange;">中危</span> |
+| android.permission.INTERNET   | 访问网络 | 允许程序访问网络.  | <span style="color:green;">正常</span> |
+| android.permission.CAMERA   | 拍照 | 允许应用程序使用相机拍照，这样应用程序可随时收集进入相机镜头的图像。  | <span style="color:green;">正常</span> |
+
+---
+
+## 涉诈图片
+
+| 文件路径   | 涉诈类别  | 涉诈图片 |
+|------------|----------|----------|
+
+---
+

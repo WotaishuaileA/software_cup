@@ -1,0 +1,10 @@
+analyze_report/
+apks_to_be_analyze/
+clip/
+decoded_apks/
+downloaded_apks/
+opseq/
+picture_analyze/
+temp/
+myapp/media/
+./model.th7
